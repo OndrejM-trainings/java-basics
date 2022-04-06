@@ -8,7 +8,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
-        <exec.mainClass>trida.App</exec.mainClass>
+        <exec.mainClass>trida.TridaA</exec.mainClass>
     </properties>
     <name>01 Třída</name>
 </project>

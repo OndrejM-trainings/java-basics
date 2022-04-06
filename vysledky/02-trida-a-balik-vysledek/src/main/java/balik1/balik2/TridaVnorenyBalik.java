@@ -1,4 +1,4 @@
-package trida.balik2;
+package balik1.balik2;
 
 public class TridaVnorenyBalik {
     
