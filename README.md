@@ -9,6 +9,8 @@ Cvičení v PDF: [Java - cviceni - den1.pdf](cviceni-zaklady/Java%20-%20cviceni%
 
 Cvičení s JShell. Slajdy obsahují cvičení a úkoly na samostatnou práci a následnou revizí lektorem.
 
+Slajdy - 1. den: [Slajdy - základy](slajdy/Java%20-%20cast%201%20-%20zaklady.pptx)
+
 ## Cvičení v IDE
 
 Tyto cvičení jsou připravené projekty pro Netbeans IDE. 
