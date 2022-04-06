@@ -44,7 +44,7 @@ Doplň `main` metodu:
 - ve výsledku tedy jedno letadlo poletí z Prahy do Londýna a druhé z Londýna do Prahy
 - použij cyklus for na pole vsechnaLetiste a pro každé letiste zavolej metodu `vypisLetadlaNaLetisti`, která vypíše informaci o letadlech, které jsou na daném letišti
 
-## 02-trida-a-balik
+## 05-trida-a-balik
 
 Vytvořte nový balík (např. `balik1` ) a v něm jednu třídu (např. `TridaBalik1`).
 
