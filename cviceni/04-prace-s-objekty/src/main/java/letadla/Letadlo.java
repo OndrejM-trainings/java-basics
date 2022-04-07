@@ -10,7 +10,7 @@ public class Letadlo {
         this.letiste.pridejLetadlo(this);
     }
     
-    void letDo(Letiste letiste) {
+    void odletDo(Letiste letiste) {
         this.letiste.odeberLetadlo(this);
         this.letiste = letiste;
         this.letiste.pridejLetadlo(this);

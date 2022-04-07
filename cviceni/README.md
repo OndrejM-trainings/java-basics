@@ -29,7 +29,7 @@ Pro třídu `Letadlo` vytvoř
 
 - konstruktor s parametrem `Letiste`, který
   - uloží letiště do proměnné `letiste`
-  - zavolá ne letišti metodu `pridejLetadlo` s parametrem `this` - tedá přidá sebe na to letiště
+  - zavolá ne letišti metodu `pridejLetadlo` s parametrem `this` - tedy na to letiště přidá sebe
 
 ## 04-prace-s-objekty
 
@@ -39,8 +39,8 @@ Doplň `main` metodu:
 
 - vytvoř letadlo s názvem "Letadlo z Prahy" a letištěm `letistePraha`
 - vytvoř letadlo s názvem "Letadlo z Londýna" a letištěm `letisteLondyn`
-- zavolej metodu `letDo` na letadlo z Prahy s parametrem `letisteLondyn; (letadlo z Prahy poletí do Londýna) 
-- zavolej metodu `letDo` na druhé letadlo s parametrem `letistePraha; (letadlo z Londýna poletí do Prahy)
+- zavolej metodu `odletDo` na letadlo z Prahy s parametrem `letisteLondyn; (letadlo z Prahy poletí do Londýna) 
+- zavolej metodu `odletDo` na druhé letadlo s parametrem `letistePraha; (letadlo z Londýna poletí do Prahy)
 - ve výsledku tedy jedno letadlo poletí z Prahy do Londýna a druhé z Londýna do Prahy
 - použij cyklus for na pole vsechnaLetiste a pro každé letiste zavolej metodu `vypisLetadlaNaLetisti`, která vypíše informaci o letadlech, které jsou na daném letišti
 
