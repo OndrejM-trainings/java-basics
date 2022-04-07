@@ -1,6 +1,6 @@
 # Cvičení
 
-Každá složka obsahuje projekt pro Netbeans, do který je potřeba upravit podle zadání. 
+Každá složka obsahuje projekt pro Netbeans, který je potřeba upravit podle zadání. 
 
 ## 01-trida
 
