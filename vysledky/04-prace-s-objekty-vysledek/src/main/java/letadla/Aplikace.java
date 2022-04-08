@@ -8,8 +8,8 @@ public class Aplikace {
 
         Letadlo letadlo1 = new Letadlo("Letadlo z Prahy", letistePraha);
         Letadlo letadlo2 = new Letadlo("Letadlo z Londýna", letisteLondyn);
-        letadlo1.letDo(letisteLondyn);
-        letadlo2.letDo(letistePraha);
+        letadlo1.odletDo(letisteLondyn);
+        letadlo2.odletDo(letistePraha);
         
         
         for (Letiste l : vsechnaLetiste) {

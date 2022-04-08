@@ -60,3 +60,39 @@ Výsledná struktura bude např.:`
 - trida
   - TridaA.java
 ```
+
+## 06-viditelnost-baliky
+
+Ve třídě `Aplikace` v balíku `obchod` je metoda `main`. V ní vytvořte nové objekty pro třídy, které jsou v balíku `placeni`:
+
+* `Pokladna`
+* `PokladniTerminal` - tu je potřeba přidat `public` před slovo `class`
+
+Tyto třídy jsou v jiném balíku, proto je potřeba je importovat.
+
+Uložte vytvořený terminál do proměnné `terminal` ve vytvořeném objektu pokladny. proměnná `terminal` musí být `public` aby bylo možné k ní přistupovat z třídy `Aplikace`.
+
+Vytvořte nový balík `zamestnanci` a v něm třídu `Pokladni`. Ve třídě `placeni.Pokladna` vytvořte proměnnou `Pokladni pokladniNaPokladne`. Bude znovu potřeba importovat `Pokladni`. Třída `Pokladni` musí být `public`.
+
+V souboru `Aplikace.java` vytvořte pod třídu `Aplikace` ještě jednu třídu `Vypocty`. Tato třída nemůže už být `public`. Ve třídě `Vypocty` vytvořte metodu `int mocnina(int cislo)`, která vrátí mocniny čísla `cislo`. Tedy obsahuje `return cislo * cislo`). Zavolejte tuto metodu z metody `main` - metoda `mocnina` musí být static.
+
+## 07-priklady-vyjimek
+
+Ve třídě `Aplikace` najdete příklady příkazů, které vyvolají výjinky.
+
+Pomocí **try catch** bloku okolo každého volania, ktoré spôsobuje výnimku, zachyťte a vypište její správu z její metody `e.getMessage()`.
+
+## 08-console
+
+Nespouštějte cvičení v Netbeans ale otevřete konzoli v adresáři `target/classes`, a v ňem spusťte příkaz:
+
+```
+java konzole.Aplikace
+```
+
+Ve třídě `Aplikace` najdete příklad načtení vstupu a jeho opětovného vypsání.
+
+Přidejte další příkaz pro načtení řádku. Výsledek změňte na typ `int` pomocí metody `Integer.parseInt(line)`. Výsledek vypište na obrazovku.
+
+Přidejte další příkaz pro načtení řádku. Výsledek změňte na pole String pomocí metody `line.split(" ")`, která jej rozdělí na jednotlivá slova. Počet prvků pole, tedy počet slov v načteném řádku, vypište na obrazovku.
+

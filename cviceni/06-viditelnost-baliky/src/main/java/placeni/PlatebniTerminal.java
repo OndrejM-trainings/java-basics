@@ -1,0 +1,5 @@
+package placeni;
+
+class PlatebniTerminal {
+    
+}
