@@ -96,3 +96,15 @@ Přidejte další příkaz pro načtení řádku. Výsledek změňte na typ `int
 
 Přidejte další příkaz pro načtení řádku. Výsledek změňte na pole String pomocí metody `line.split(" ")`, která jej rozdělí na jednotlivá slova. Počet prvků pole, tedy počet slov v načteném řádku, vypište na obrazovku.
 
+## 09-hadaci-hra
+
+Toto je ukázka skoro všeho, co jsme se na kurzu naučili.
+
+Podvejte se na výsledek cvičení a zkuste aplikaci spustit (stejně jako cvičení 8):
+
+* otevřete konzoli v adresáři `target/classes`
+* v konzoli spusťte příkaz: `java hadacihra.Aplikace`
+
+Je to hádací hra, kde hráč musí uhodnout náhodné číslo od 1 do 10. Do konzole napíše číslo, a pokud je číslo správně, hra končí. Pokud ne, hra vypíše, jestli je číslo větší nebo menší a hráč hádá dále. Pokud hráč místo čísla napíše text "exit", hra se ukončí ihned i bez uhodnutí čísla.
+
+Pokud všemu rozumíte, můžete si aplikaci napsat sami. V adresáři `cviceni` je připraven projekt, který obsahuje základ aplikace, který musíte doplnit.
