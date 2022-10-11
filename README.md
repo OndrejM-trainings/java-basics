@@ -10,7 +10,7 @@ Více možností instalace Javy:
 > Pozor, nepoužívat https://www.java.com/download. Je to zastaralá stránka, obsahuje jenom velmi staré verze jazyka Java.
 
 Instalovat Netbeans IDE - prostředí pro vývoj aplikací v jazyku Java:
-* ztáhnout z https://netbeans.apache.org/
+* stáhnout z https://netbeans.apache.org/
 
 ## Java tahák
 
