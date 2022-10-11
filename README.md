@@ -1,5 +1,17 @@
 # Školení: Java - úvod do programování
 
+## Instalace jazyka Java
+
+Více možností instalace Javy:
+
+* Doporučená možnost: https://adoptopenjdk.net/
+* Oficiální verze od Oracle: https://www.oracle.com/java/technologies/downloads
+
+> Pozor, nepoužívat https://www.java.com/download. Je to zastaralá stránka, obsahuje jenom velmi staré verze jazyka Java.
+
+Instalovat Netbeans IDE - prostředí pro vývoj aplikací v jazyku Java:
+* ztáhnout z https://netbeans.apache.org/
+
 ## Java tahák
 
 Všechno důležité v kostce po ruce: [Java tahák](java%20tahak.pdf)
