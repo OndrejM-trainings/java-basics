@@ -40,3 +40,8 @@ Ve složce
 2. den: [Slajdy - objekty a balíky](slajdy/Java1-cast2.pdf)
 3. den: [Slajdy - výjimky a vstup/výstup](slajdy/Java1-cast3.pdf)
 
+## Další cvičení na internetu:
+
+* [w3schools.com](https://www.w3schools.com/java/java_classes.asp) - Procvičování tvorby objektů, editor kódu přímo v prohlížeči
+* [Java tutorials](https://docs.oracle.com/javase/tutorial/java/javaOO/index.html) - tutoriál na prácu s objektami
+* [Javadoc - Dokumentace standardních Java objektů](https://docs.oracle.com/en/java/javase/17/docs/api/) - popis fungování standardních objektů jako String, System, Console, Scanner, ...
