@@ -13,26 +13,21 @@ public class Hra {
 
 
     public void start() {
-        System.console().format("Hádej číslo od 1 do 10." + "\n");
+        System.out.println("Hádej číslo od 1 do 10." + "\n");
         
-        try {
-
-            // Opakujeme hádání pokud hráč číslo neuhodl
-            while (!uhodl) {
+        // Opakujeme hádání pokud hráč číslo neuhodl
+        while (!uhodl) {
 
 
 
-                // když hráč uhodne, musíme nastavit uhodl = true aby se hra ukončila
-                uhodl = true;
-                
-                
-                
-                
-            }
+            // když hráč uhodne, musíme nastavit uhodl = true aby se hra ukončila
+            uhodl = true;
 
-        } catch (Exception e) {
-            System.out.println("Konec");
+
+
+
         }
+
     }
 
 }

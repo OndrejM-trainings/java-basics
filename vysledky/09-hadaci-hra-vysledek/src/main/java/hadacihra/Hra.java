@@ -1,6 +1,7 @@
 package hadacihra;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Hra {
 
@@ -13,25 +14,28 @@ public class Hra {
 
     public void start() {
 
-        System.console().format("Hádej číslo od 1 do 10." + "\n");
+        System.out.println("Hádej číslo od 1 do 10.");
         
         try {
 
             // Opakujeme hádání pokud hráč číslo neuhodl
             while (!uhodl) {
 
-                String line = System.console().readLine("Na jaké číslo myslím? ");
+                String line = nactiRadek("Na jaké číslo myslím? ");
                 
-                // pokud dostaneme text "exit", ukončíme program vyhozením výjimky
+                // pokud dostaneme text "konec", ukončíme program vyhozením výjimky
                 ukonciKdyzExit(line);
                 
                 try {
                     int cisloZeVstupu = Integer.parseInt(line);
+                    // vytvoříme objekt Pokus pro hádací pokus hráče
+                    Pokus pokus = new Pokus(this.hadaneCislo);
+                    pokus.cisloOdHrace = cisloZeVstupu;
                     // je číslo správné nebo vétší/menší?
-                    zkontrolujCislo(cisloZeVstupu);
+                    uhodl = pokus.zkontrolujCislo();
 
                 } catch (Exception e) {
-                    System.console().format("Toto není číslo, zkus znovu.");
+                    System.out.println("Toto není číslo, zkus znovu.");
                 }
             }
 
@@ -42,23 +46,15 @@ public class Hra {
         }
     }
 
-    void zkontrolujCislo(int cisloZeVstupu) {
-        // Pokud menší/větší, vypiš to na výsup a pokračuje v hádání
-        if (hadaneCislo < cisloZeVstupu) {
-            System.console().format("Neuhodl jsi, moje číslo je menší.\n");
-        } else if (hadaneCislo > cisloZeVstupu) {
-            System.console().format("Neuhodl jsi, moje číslo je větší.\n");
-        } else {
-            // Pokud ani menší ani větší, je to teda hádané číslo. 
-            // Vypiš to a zaznamenej, že hráč uhodl číslo, aby se aplikace ukončila
-            System.console().format("Uhodl jsi, moje číslo je skutečně " + cisloZeVstupu + "\n");
-            uhodl = true;
+    void ukonciKdyzExit(String line) throws Exception {
+        if (line.equals("konec")) {
+            throw new Exception("Konec");
         }
     }
 
-    void ukonciKdyzExit(String line) throws Exception {
-        if (line.equals("exit")) {
-            throw new Exception("Exit");
-        }
+    private String nactiRadek(String popisVstupu) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(popisVstupu);
+        return scanner.nextLine();
     }
 }

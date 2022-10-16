@@ -8,6 +8,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
+        <exec.mainClass>hadacihra.Aplikace</exec.mainClass>
     </properties>
     <name>09 Hádací hra</name>
 </project>

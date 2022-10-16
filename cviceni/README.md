@@ -70,41 +70,42 @@ Ve třídě `Aplikace` v balíku `obchod` je metoda `main`. V ní vytvořte nov�
 
 Tyto třídy jsou v jiném balíku, proto je potřeba je importovat.
 
+----
+
 Uložte vytvořený terminál do proměnné `terminal` ve vytvořeném objektu pokladny. proměnná `terminal` musí být `public` aby bylo možné k ní přistupovat z třídy `Aplikace`.
 
 Vytvořte nový balík `zamestnanci` a v něm třídu `Pokladni`. Ve třídě `placeni.Pokladna` vytvořte proměnnou `Pokladni pokladniNaPokladne`. Bude znovu potřeba importovat `Pokladni`. Třída `Pokladni` musí být `public`.
 
-V souboru `Aplikace.java` vytvořte pod třídu `Aplikace` ještě jednu třídu `Vypocty`. Tato třída nemůže už být `public`. Ve třídě `Vypocty` vytvořte metodu `int mocnina(int cislo)`, která vrátí mocniny čísla `cislo`. Tedy obsahuje `return cislo * cislo`). Zavolejte tuto metodu z metody `main` - metoda `mocnina` musí být static.
+V souboru `Aplikace.java` vytvořte pod třídu `Aplikace` ještě jednu třídu `Vypocty`. Tato třída nemůže už být `public`. 
+
+Ve třídě `Vypocty` vytvořte metodu `int mocnina(int cislo)`, která vrátí mocniny čísla `cislo`. Tedy obsahuje `return cislo * cislo`). Zavolejte tuto metodu z metody `main` - metoda `mocnina` musí být static.
 
 ## 07-priklady-vyjimek
 
 Ve třídě `Aplikace` najdete příklady příkazů, které vyvolají výjinky.
 
-Pomocí **try catch** bloku okolo každého volania, ktoré spôsobuje výnimku, zachyťte a vypište její správu z její metody `e.getMessage()`.
+Pomocí **try catch** bloku kolem každého volání, které způsobuje výjimku, zachyťte a vypište její správu z její metody `e.getMessage()`.
 
-## 08-console
-
-Nespouštějte cvičení v Netbeans ale otevřete konzoli v adresáři `target/classes`, a v ňem spusťte příkaz:
-
-```
-java konzole.Aplikace
-```
+## 08-scanner
 
 Ve třídě `Aplikace` najdete příklad načtení vstupu a jeho opětovného vypsání.
 
-Přidejte další příkaz pro načtení řádku. Výsledek změňte na typ `int` pomocí metody `Integer.parseInt(line)`. Výsledek vypište na obrazovku.
+---
 
-Přidejte další příkaz pro načtení řádku. Výsledek změňte na pole String pomocí metody `line.split(" ")`, která jej rozdělí na jednotlivá slova. Počet prvků pole, tedy počet slov v načteném řádku, vypište na obrazovku.
+Přidejte další příkaz pro načtení řádku. Výsledek změňte na typ `int` pomocí metody `Integer.parseInt(line)`. Výsledek vypište.
+
+Dalším příkazem načtěte číslo přímo pomocí `Scanner.nextInt()`.
+Výsledek vypište.
+
 
 ## 09-hadaci-hra
 
 Toto je ukázka skoro všeho, co jsme se na kurzu naučili.
 
-Podvejte se na výsledek cvičení a zkuste aplikaci spustit (stejně jako cvičení 8):
+Je to hádací hra, kde hráč musí uhodnout náhodné číslo od 1 do 10. Do konzole napíše číslo, a pokud je číslo správně, hra končí. Pokud ne, hra vypíše, jestli je číslo větší nebo menší a hráč hádá dále. Pokud hráč místo čísla napíše text "konec", hra se ukončí ihned i bez uhodnutí čísla.
 
-* otevřete konzoli v adresáři `target/classes`
-* v konzoli spusťte příkaz: `java hadacihra.Aplikace`
+----
 
-Je to hádací hra, kde hráč musí uhodnout náhodné číslo od 1 do 10. Do konzole napíše číslo, a pokud je číslo správně, hra končí. Pokud ne, hra vypíše, jestli je číslo větší nebo menší a hráč hádá dále. Pokud hráč místo čísla napíše text "exit", hra se ukončí ihned i bez uhodnutí čísla.
+Nejprve se podvejte na výsledek cvičení a zkuste aplikaci spustit.
 
-Pokud všemu rozumíte, můžete si aplikaci napsat sami. V adresáři `cviceni` je připraven projekt, který obsahuje základ aplikace, který musíte doplnit.
+Můžete si aplikaci napsat sami. V adresáři `cviceni/09-hadaci-hra` je připraven projekt, který obsahuje základ aplikace. Ten můžete doplnit. 
