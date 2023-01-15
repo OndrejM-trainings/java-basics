@@ -6,7 +6,7 @@ Každá složka obsahuje projekt pro Netbeans, který je potřeba upravit podle 
 
 Ke třídě `TridaA` vytvořte ještě třídu `TridaB`.
 
-Ve třídě TridaA vytvořte main metodu pro spuštění programu. V ní vytvořte objekt z třídy TridaB, uložte ho do proměnné typu TridaB a pak objekt vypište pomocí `System.out.println()`.
+Ve třídě TridaA, v metodě `main` vytvořte objekt z třídy TridaB, uložte ho do nové proměnné `b` (typu TridaB) a pak objekt proměnné `b` vypište pomocí `System.out.println()`.
 
 ## 02-relace-trid
 
