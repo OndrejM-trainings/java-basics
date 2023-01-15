@@ -1,5 +1,7 @@
 # Školení: Java - úvod do programování
 
+## Odkaz na tuto stránku: [bit.ly/ICTPRO-JAVA1](https://bit.ly/ICTPRO-JAVA1)
+
 ## Instalace jazyka Java
 
 Více možností instalace Javy:
