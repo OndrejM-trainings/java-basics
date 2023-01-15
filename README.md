@@ -4,13 +4,24 @@
 
 Více možností instalace Javy:
 
-* Doporučená možnost: https://adoptopenjdk.net/
-* Oficiální verze od Oracle: https://www.oracle.com/java/technologies/downloads
+* **Eclipse Temurin JDK**: https://adoptium.net/
+* Další možnosti: https://foojay.io/java-quick-start/install-java/
 
 > Pozor, nepoužívat https://www.java.com/download. Je to zastaralá stránka, obsahuje jenom velmi staré verze jazyka Java.
 
-Instalovat Netbeans IDE - prostředí pro vývoj aplikací v jazyku Java:
-* stáhnout z https://netbeans.apache.org/
+
+## Instalace vývojového prostředí (IDE)
+
+* **Eclipse IDE** - stáhnout z https://www.eclipse.org/downloads/
+  * Při instalaci vyberte Eclipse IDE for Java Developers
+
+nebo 
+
+* **Netbeans IDE** -  stáhnout z https://netbeans.apache.org/
+
+### JShell v prohlížeči
+
+* [onecompiler.com/jshell](https://onecompiler.com/jshell/3yuzktpve)
 
 ## Java tahák
 
